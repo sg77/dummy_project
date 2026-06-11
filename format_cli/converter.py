@@ -7,7 +7,7 @@ def convert(input_path, output_path, from_fmt, to_fmt):
     if from_fmt == 'json':
         data = json_parser.load(input_path)
     elif from_fmt == 'yaml':
-        data = yaml_parser.load(input_path)
+        data = yaml_parser.Load(input_path)
     elif from_fmt == 'xml':
         data = xml_parser.load(input_path)
     elif from_fmt == 'toml':
