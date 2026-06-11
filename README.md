@@ -1,17 +1,12 @@
 # Format CLI
 
-A simple CLI tool to convert between formats like JSON, YAML, TOML, XML.
+CLI to convert between formats.
 
 ## Usage
+format-cli input.json output.yaml
 
-```
-format-cli convert input.json output.yaml
-```
+## Tests
+Run with pytest or unittest (maybe works).
 
 ## TODO
-- Improve error handling
-- Add streaming support
-- Support more formats
-
-## Notes
-This is a dummy project and not production-ready.
+- better docs
